@@ -1,0 +1,41 @@
+html, body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 2em;
+}
+
+.link {
+    color: #2196F3 !important;
+    text-decoration: underline !important;
+}
+
+.bookmarks {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.bookmark-tile {
+    margin: 8px;
+}
+
+@media (max-width: 479px) {
+    .bookmark-tile {
+        width: calc(100% - 16px);
+    }
+}
+
+@media (min-width: 480px) {
+    .bookmark-tile {
+        width: calc(50% - 16px);
+    }
+}
+
+@media (min-width: 1025px) {
+    .bookmark-tile {
+        width: calc(25% - 16px);
+    }
+}
