@@ -30,5 +30,7 @@ lein cljsbuild once min
 
 You can then use the `./resources/public` folder with the compiled files.
 
+After that you can build the docker container with the given `Dockerfile`.
+
 ## Links
 * http://www.material-ui.com/
