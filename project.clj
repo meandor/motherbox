@@ -1,4 +1,4 @@
-(defproject motherbox "0.1.0"
+(defproject motherbox "0.1.1-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.946"]
                  [reagent "0.7.0"]
