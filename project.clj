@@ -28,8 +28,7 @@
                                        :external-config      {:devtools/config {:features-to-install :all}}}}
                        {:id           "min"
                         :source-paths ["src/cljs"]
-                        :compiler     {:main            bookmarks.core
-                                       :output-to       "resources/public/js/compiled/app.js"
-                                       :optimizations   :advanced
-                                       :closure-defines {goog.DEBUG false}
-                                       :pretty-print    false}}]})
+                        :compiler     {:main          bookmarks.core
+                                       :output-to     "resources/public/js/compiled/app.js"
+                                       :optimizations :advanced
+                                       :pretty-print  false}}]})
