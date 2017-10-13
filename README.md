@@ -32,5 +32,8 @@ You can then use the `./resources/public` folder with the compiled files.
 
 After that you can build the docker container with the given `Dockerfile`.
 
+## Screenshot
+![screenshot](https://github.com/meandor/motherbox/raw/master/docs/screenshot.png)
+
 ## Links
 * http://www.material-ui.com/
