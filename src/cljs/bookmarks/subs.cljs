@@ -9,7 +9,7 @@
     (:name db)))
 
 (defn filter-links [substring links]
-  (filter #(s/includes? (:title %) substring) links))
+  (filter #(s/includes? (s/lower-case (:title %)) (s/lower-case substring)) links))
 
 (re-frame/reg-sub
   :filter-value
